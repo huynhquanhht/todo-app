@@ -1,9 +1,10 @@
-import java.io.Serializable;
+package com.todoapp.backend.payload.response;
+
 import org.springframework.http.HttpStatus;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-
+import java.io.Serializable;
 import lombok.Data;
 
 @Data

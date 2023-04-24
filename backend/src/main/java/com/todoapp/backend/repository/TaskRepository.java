@@ -9,14 +9,4 @@ import com.todoapp.backend.entity.Task;
 
 @Repository
 public interface TaskRepository extends JpaRepository<Task, Long> {
-  // Task createTask();
-
-  // Page<Task> getTasks(Pageable pageable);
-
-  // Task getTaskById(int taskId);
-
-  // Task updateTaskById(int taskId, Task newTask);
-
-  // Task deleteTaskById(int taskId);
-
 }

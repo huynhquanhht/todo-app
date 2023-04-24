@@ -32,7 +32,7 @@ public class PagedResponse<T> {
     if (content == null) {
       this.content = null;
     } else {
-      this.content = Collections.unmodifiableList(content)  
+      this.content = Collections.unmodifiableList(content);
     }
   }
 
